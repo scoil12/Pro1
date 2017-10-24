@@ -1,0 +1,19 @@
+public class UsingMod
+{
+    public static void main (String args [])
+    {
+        int num = 123;
+        int result = 0;
+         System.out.println("The digits in the number 123 are:");
+        result = num / 100;
+        System.out.println(result);
+         num = num % 100;
+         result = num / 10;
+         System.out.println(result);
+         num = num % 10;
+         result = num;
+         System.out.println(result);
+         
+         
+    }     
+}
