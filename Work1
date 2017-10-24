@@ -1,0 +1,62 @@
+public class Modulus
+{
+    public static void main (String [] args)
+    {
+        int num1 = 18;
+        int num2 = 27;
+        int num3 = 33;
+        int num4 = 20;
+        int num5 = 3;
+        int Even = 0;
+        int Odd = 0;
+    
+        
+        if (num1 % 2 == 0)
+        {
+            Even = Even + 1;
+        }
+        else
+        {
+        Odd = Odd + 1;
+        }
+            if (num2 % 2 == 0)
+        {
+            Even = Even + 1;
+        }
+        else
+        {
+        Odd = Odd + 1;
+        }
+            if (num3 % 2 == 0)
+        {
+            Even = Even + 1;
+        }
+        else
+        {
+        Odd = Odd + 1;
+        }
+        {
+            if (num4 % 2 == 0)
+        
+        {
+            Even = Even + 1;
+        }
+        else
+        {
+        Odd = Odd + 1;
+        }
+            if (num5 % 2 == 0)
+        {
+            Even = Even + 1;
+        }
+        else
+        {
+        Odd = Odd + 1;
+        }
+            System.out.println("Odd: " + Odd);
+            System.out.println("Even: " + Even);
+        
+        
+    }
+}
+}
